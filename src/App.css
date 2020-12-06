@@ -1,38 +1,80 @@
-.App {
+body {
+  background-image: url('img/todo.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+
+
+.input-text {
+  display: inline;
+  margin: 0;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 10px;
+  width: 70%;
+}
+
+.list ol li button {
+  position: absolute;
+  right: 0%;
+  background: #f34541;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+.add-btn {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #262b26;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+.app-title {
   text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+.list ol li {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  line-height: 30px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #6447ff;
+  padding: 10px;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.container {
+  color: #fff;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 100px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
